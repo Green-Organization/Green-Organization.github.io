@@ -1,0 +1,74 @@
+body {
+    color: white;
+}
+
+#promo {
+    text-align: center;
+    padding: 40px;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0) 0%, black 100%), url("images/cinema.jpg");
+    background-size: cover;
+}
+
+#promo .jumbotron {
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #343a40dc;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width:991px) {
+    #promo {
+        padding: 20px;
+    }
+
+    #promo .jumbotron {
+        padding: 20px;
+    }
+}
+
+#poster {
+    background: black;
+    padding: 20px 260px 1px 260px;
+}
+
+#poster h2 {
+    color: white;
+    font-size: 36;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#poster .row {
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+#poster .nav-tabs {
+    float: right;
+    border: 0;
+}
+
+#poster .nav-item {
+    border: 0;
+}
+
+#poster .nav-link {
+    display: inline;
+    float: left;
+    opacity: .5;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+#poster .nav-link.active {
+    opacity: 1;
+    border-bottom: solid 2px white;
+}
+
+.tab-content {
+    margin: 0;
+    padding: 0;
+}
