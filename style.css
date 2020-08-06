@@ -68,7 +68,11 @@ body {
     border-bottom: solid 2px white;
 }
 
-.tab-content {
+#poster .tab-content {
     margin: 0;
     padding: 0;
+}
+
+#poster .slider-area {
+	width: 100%;
 }
