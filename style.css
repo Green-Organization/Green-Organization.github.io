@@ -2,6 +2,12 @@ body {
     color: white;
 }
 
+@media (min-width:991px) {
+    #navbar .nav-link{
+        margin-left: 20px;
+    }
+}
+
 #promo {
     text-align: center;
     padding: 40px;
