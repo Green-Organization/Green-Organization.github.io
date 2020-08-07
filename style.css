@@ -19,7 +19,7 @@ body {
     border-radius: 20px;
     padding: 40px;
     background-color: #343a40dc;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ body {
 
 #poster {
     background: black;
-    padding: 20px 260px 1px 260px;
+    padding: 120px 260px 1px 260px;
 }
 
 #poster h2 {
@@ -81,4 +81,16 @@ body {
 
 #poster .slider-area {
 	width: 100%;
+}
+
+#poster .slick-prev {
+    left: -55px;
+}
+
+#poster .slick-prev:before {
+    font-size: 50px;
+}
+
+#poster .slick-next:before {
+    font-size: 50px;
 }
