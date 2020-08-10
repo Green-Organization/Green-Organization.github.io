@@ -1,21 +1,18 @@
-body {
-    color: white;
-}
-
-@media (min-width:991px) {
-    #navbar .nav-link {
-        margin-left: 20px;
-    }
-}
-
-#promo {
+#Suggeriti {
+    color: red;
     text-align: center;
-    padding: 40px;
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0) 0%, black 100%), url("images/cinema.jpg");
-    background-size: cover;
 }
 
-#promo .jumbotron {
+#nome_cinema {
+    color: grey;
+}
+
+#tab_cinema {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titolo {
     border-radius: 20px;
     padding: 40px;
     background-color: #343a40dc;
@@ -23,14 +20,15 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width:991px) {
-    #promo {
-        padding: 20px;
-    }
+#locandina {
+    margin-top: 24px;
+}
 
-    #promo .jumbotron {
-        padding: 20px;
-    }
+body {
+    text-align: center;
+    padding: 40px;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0) 0%, black 100%), url("images/cinema.jpg");
+    background-size: cover;
 }
 
 #poster {
@@ -95,3 +93,8 @@ body {
     font-size: 50px;
 }
 
+@media (min-width:991px) {
+    #navbar .nav-link {
+        margin-left: 20px;
+    }
+}

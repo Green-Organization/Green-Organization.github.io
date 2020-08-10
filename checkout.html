@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Checkout example for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="form-validation.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="bg-dark navbar navbar-dark navbar-expand-lg text-uppercase" id="navbar"> 
+            <a class="navbar-brand" href="#">Logo</a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler35" aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span> 
+            </button>             
+            <div class="collapse font-weight-bold navbar-collapse" id="navbarToggler35"> 
+                <ul class="ml-auto mt-2 mt-lg-0 navbar-nav"> 
+                    <li class="nav-item "> 
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Now in our theater<span class="sr-only">(text)</span></a> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Coming soon<span class="sr-only">(text)</span></a> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Food & drink<span class="sr-only">(text)</span></a> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Schedule<span class="sr-only">(text)</span></a> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Our theater<span class="sr-only">(text)</span></a> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Login<span class="sr-only">(text)</span></a> 
+                    </li>
+                </ul>                 
+            </div>             
+        </nav>
+        <div class="container">
+            <div class="py-5 text-center">
+                <h2>Pagamento</h2>
+            </div>
+            <div class="row">
+                <div class="bg-white col-md-4 mb-4 order-md-2">
+                    <h4 class="text-body text-left">Carrello</h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between lh-condensed">
+                            <ul class="list-group"></ul>
+                            <img src="images/it-pennywise-hush-i58004.jpg" height="75" width="50" class="ml-n3">
+                            <div>
+                                <h6 class="my-0">IT(2017)</h6>
+                                <font color="#6c757d"><span style="font-size: 12.8px;">Smeraldo</span><span style="font-size: 12.8px;"><p>06/06/20 19:00</p></span></font>&nbsp;&nbsp;
+                            </div>
+                            <span class="text-muted">&nbsp;x1&nbsp; &nbsp;7,50&euro;</span>
+                            <div>
+                                <br>
+                            </div>
+                            <img src="images/icons8-eliminare-64.png" width="20" height="20" class="mr-n2 pr-auto">
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Totale</span>
+                            <strong>7,50&euro;</strong>
+                        </li>
+                        <ul class="list-group"> 
+</ul>
+                    </ul>
+                    <button class="btn btn-block btn-danger btn-lg mb-5 pb-auto" type="submit">Svuota Carrello</button>
+                </div>
+                <div class="bg-white col-md-8 order-md-1 text-body">
+                    <form class="needs-validation" novalidate="">
+                        <div class="mb-3">
+</div>
+                        <div class="mb-3">
+                            <div class="invalid-feedback">
+                                Please enter a valid email address for shipping updates.
+</div>
+                        </div>
+                        <div class="mb-3">
+</div>
+                        <h4 class="mb-3">Pagamento</h4>
+                        <div class="d-block my-3">
+                            <div class="custom-control custom-radio">
+                                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                                <label class="custom-control-label" for="credit">Carta di Credito</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                                <label class="custom-control-label" for="debit">Carta di Debito</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                                <label class="custom-control-label" for="paypal">Paypal</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="cc-name">Nome sulla Carta</label>
+                                <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                                <small class="text-muted">Nome intero intestatario carta</small>
+                                <div class="invalid-feedback">
+                                    Name on card is required
+</div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="cc-number">Numero Carta&nbsp;</label>
+                                <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                                <div class="invalid-feedback">
+                                    Credit card number is required
+</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="cc-expiration">Data di Scadenza</label>
+                                <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                                <div class="invalid-feedback">
+                                    Expiration date required
+</div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="cc-expiration">CVV</label>
+                                <input type="text" class="align-bottom form-control" id="cc-cvv" placeholder="" required="">
+                                <div class="invalid-feedback">
+                                    Security code required
+</div>
+                            </div>
+                        </div>
+                        <hr class="mb-4">
+                        <button class="btn btn-block btn-lg btn-primary mb-5 pb-auto" type="submit">Paga</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->         
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        <iframe src="footer.html" width="100%" scrolling="no" style="border:none;overflow: hidden;display: block;position: absolute;height: 320px;">
+</iframe>
+    </body>
+</html>
