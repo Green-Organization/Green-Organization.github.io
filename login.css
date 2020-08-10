@@ -1,0 +1,63 @@
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 120px 15px;
+    margin: 0 auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    margin-bottom: 20px;
+}
+
+.form-signin input:focus {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+}
+
+.form-signin .forgot {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.form-signin .forgot:hover,
+.form-signin .forgot:active {
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.custom-control-label {
+    margin-bottom: 10px;
+}
+
+.custom-control-label:before {
+    background-color: #888;
+    border-color: #888;
+}

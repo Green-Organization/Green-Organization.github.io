@@ -1,25 +1,26 @@
 body {
+    background: #111;
     color: white;
 }
 
 @media (min-width:991px) {
-    #navbar .nav-link{
+    #navbar .nav-link {
         margin-left: 20px;
     }
 }
 
 #promo {
     text-align: center;
-    padding: 40px;
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0) 0%, black 100%), url("images/cinema.jpg");
+    padding: 80px;
+    background-image: -webkit-linear-gradient(#1110, #111f), url("images/cinema.jpg");
     background-size: cover;
 }
 
 #promo .jumbotron {
     border-radius: 20px;
-    padding: 40px;
-    background-color: #343a40dc;
-    max-width: 1200px;
+    padding: 80px;
+    background-color: #222e;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -34,8 +35,9 @@ body {
 }
 
 #poster {
-    background: black;
-    padding: 120px 260px 1px 260px;
+    margin: auto;
+    padding: 80px;
+    max-width: 1100px;
 }
 
 #poster h2 {
@@ -69,28 +71,28 @@ body {
     border: 0;
 }
 
+#poster .nav-link:hover {
+    opacity: .75;
+}
+
 #poster .nav-link.active {
     opacity: 1;
     border-bottom: solid 2px white;
 }
 
 #poster .tab-content {
-    margin: 0;
-    padding: 0;
+    padding: 80px 0;
+    padding-bottom: 0;
 }
 
-#poster .slider-area {
-	width: 100%;
+#poster .carousel-item .row {
+    border-bottom: none;
 }
 
-#poster .slick-prev {
-    left: -55px;
+#poster .carousel-control-prev {
+    margin-left: -25px;
 }
 
-#poster .slick-prev:before {
-    font-size: 50px;
-}
-
-#poster .slick-next:before {
-    font-size: 50px;
+#poster .carousel-control-next {
+    margin-right: -25px;
 }
