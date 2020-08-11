@@ -10,7 +10,7 @@
         <!-- Bootstrap core CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
         <!-- Custom styles for this template -->
-        <link href="style.css" rel="stylesheet">
+        <link href="style_max.css" rel="stylesheet">
     </head>
     <body>
         <nav class="bg-dark navbar navbar-dark navbar-expand-lg text-uppercase" id="navbar"> 
@@ -44,24 +44,29 @@
                 </ul>                 
             </div>             
         </nav>
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
+        <div class="card mt-4" id="titolo">
+            <h1 class="text-center"><b class="text-light">&nbsp; &nbsp;Acquista Biglietto</b></h1> 
+        </div>
         <div class="container d-inline-flex d-xl-inline-flex text-body" id="acq_vie">
             <img src="images/it-pennywise-hush-i58004.jpg" width="300" height="400" style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 1rem;" class="mt-5">
             <div class="container mt-5">
-                <h1>IT (2017)  </h1>
-                <h3></h3>
+                <div class="card mt-4" id="titolo">
+                    <h1 class="text-white">IT (2017)  </h1>
+                    <h3><hr class="text-white"/></h3>
+                    <h3 id="nome_cinema" class="text-white">Smeraldo Cinema</h3>
+                    <hr class="text-white"/>
+                    <form>
+                        <label for="Date" class="text-white">Data Spettacolo:</label>
+                        <input type="date" id="Date" name="Date" value="07/08/2020"> 
+                    </form>                     
+                </div>
                 <hr/>
-                <h3 id="nome_cinema" class="text-black-50">Smeraldo Cinema</h3>
-                <hr/>
-                <form>
-                    <label for="Date">Data Spettacolo:</label>
-                    <input type="date" id="Date" name="Date" value="07/08/2020"> 
-                </form>
             </div>
         </div>
         <hr/>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
         <table class="mb-0 table">
             <thead class="bg-danger text-light"> 
                 <tr class="text-center text-lg-center text-md-center text-sm-center text-xl-center"> 
