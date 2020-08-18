@@ -7,6 +7,11 @@
     border-radius: 8px;
 }
 
+#maincontainer {
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0) 0%, black 100%), url("https://img.chilango.com/2020/06/reapertura-cines-cdmx.jpg");
+    background-size: cover;
+}
+
 #cardCinema {
     border-radius: 20px;
     background-color: #343a40dc;
@@ -14,6 +19,10 @@
     margin: 0 auto;
     opacity: 0.90;
     padding: 100px;
+}
+
+#btnCambiaCinema {
+    background-color: #343a40dc;
 }
 
 #Card1 {
@@ -61,7 +70,6 @@
 }
 
 #container2 {
-    background-color: #000000;
     padding: 100px;
 }
 
