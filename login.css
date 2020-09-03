@@ -1,7 +1,19 @@
+#logo {
+    padding-bottom: 50px;
+}
+
+#logo span {
+    font-size: xx-large;
+}
+
+#logo .rectangle {
+    color: #111;
+}
+
 .form-signin {
     width: 100%;
     max-width: 330px;
-    padding: 120px 15px;
+    padding: 80px 15px 120px 15px;
     margin: 0 auto;
 }
 
