@@ -1,0 +1,100 @@
+#Suggeriti {
+    color: red;
+    text-align: center;
+}
+
+#nome_cinema {
+    color: grey;
+}
+
+#tab_cinema {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titolo {
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #343a40dc;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#locandina {
+    margin-top: 24px;
+}
+
+body {
+    text-align: center;
+    padding: 40px;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0) 0%, black 100%), url("images/cinema.jpg");
+    background-size: cover;
+}
+
+#poster {
+    background: black;
+    padding: 120px 260px 1px 260px;
+}
+
+#poster h2 {
+    color: white;
+    font-size: 36;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#poster .row {
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+#poster .nav-tabs {
+    float: right;
+    border: 0;
+}
+
+#poster .nav-item {
+    border: 0;
+}
+
+#poster .nav-link {
+    display: inline;
+    float: left;
+    opacity: .5;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+#poster .nav-link.active {
+    opacity: 1;
+    border-bottom: solid 2px white;
+}
+
+#poster .tab-content {
+    margin: 0;
+    padding: 0;
+}
+
+#poster .slider-area {
+    width: 100%;
+}
+
+#poster .slick-prev {
+    left: -55px;
+}
+
+#poster .slick-prev:before {
+    font-size: 50px;
+}
+
+#poster .slick-next:before {
+    font-size: 50px;
+}
+
+@media (min-width:991px) {
+    #navbar .nav-link {
+        margin-left: 20px;
+    }
+}
