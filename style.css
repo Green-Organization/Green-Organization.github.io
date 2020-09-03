@@ -26,90 +26,92 @@ body {
     }
 }
 
-#promo {
-    text-align: center;
-    padding: 80px;
-    background-image: -webkit-linear-gradient(#1110, #111f), url("images/cinema.jpg");
-    background-size: cover;
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #282d32;
 }
 
-#promo .jumbotron {
-    border-radius: 20px;
-    padding: 80px;
-    background-color: #222e;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-@media (max-width:991px) {
-    #promo {
-        padding: 20px;
-    }
-
-    #promo .jumbotron {
-        padding: 20px;
-    }
-}
-
-#poster {
-    margin: auto;
-    padding: 80px;
-    max-width: 1100px;
-}
-
-#poster h2 {
-    color: white;
-    font-size: 36;
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
     font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
     margin-bottom: 0;
 }
 
-#poster .row {
-    padding-bottom: 20px;
-    border-bottom: 2px solid white;
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
 }
 
-#poster .nav-tabs {
-    float: right;
-    border: 0;
+.footer-dark ul a:hover {
+    opacity: 0.8;
 }
 
-#poster .nav-item {
-    border: 0;
+.footer-dark .item.text {
+    margin-bottom: 36px;
 }
 
-#poster .nav-link {
-    display: inline;
-    float: left;
-    opacity: .5;
-    background: transparent;
-    color: white;
-    font-weight: bold;
-    border: 0;
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
 }
 
-#poster .nav-link:hover {
-    opacity: .75;
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
 }
 
-#poster .nav-link.active {
-    opacity: 1;
-    border-bottom: solid 2px white;
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
 }
 
-#poster .tab-content {
-    padding: 80px 0;
-    padding-bottom: 0;
+.footer-dark .item.social {
+    text-align: center;
 }
 
-#poster .carousel-item .row {
-    border-bottom: none;
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
-#poster .carousel-control-prev {
-    margin-left: -25px;
+.footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
 }
 
-#poster .carousel-control-next {
-    margin-right: -25px;
+.footer-dark .item.social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
 }
