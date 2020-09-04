@@ -8,17 +8,17 @@ body {
     font-family: Arial, serif;
     font-size: 0px;
     font-weight: bold;
-    padding:5px 5px;
+    padding: 5px 5px;
 }
 
 #logo span {
     font-size: large;
-    padding:2px 2px;
+    padding: 2px 2px;
 }
 
 #logo .rectangle {
     border-radius: 7px;
-    padding:5px 2px;
+    padding: 5px 2px;
 }
 
 @media (min-width:991px) {
@@ -116,3 +116,4 @@ body {
     font-size: 13px;
     margin-bottom: 0;
 }
+
