@@ -2,8 +2,4 @@
 	path = ext/bootstrap
 	url = https://github.com/twbs/bootstrap.git
 	branch = v4.5.3
-[submodule "ext/jquery"]
-	path = ext/jquery
-	url = https://github.com/jquery/jquery.git
-	branch = 3.5.0
 
