@@ -8,10 +8,15 @@
     <meta name="author" content="Fabio Buracchi">
     <title>Prototype</title>
     <script src="/src/js/frame.js"></script>
+    <script type="application/javascript">
+        function resizeFrame(frame) {
+            frame.style.height=frame.contentWindow.document.body.scrollHeight + "px";
+        }
+    </script>
 </head>
 <body style="margin:0;">
     <header>
-        <iframe src="/src/components/navbar/navbar.html" onload="resizeFrame(this)" onmouseover="resizeFrame(this)" name="nav_frame" title="navbar" style="display:block;width:100%;border:none;overflow:hidden;"></iframe>
+        <iframe src="/src/components/navbar/admin-navbar.html" onload="resizeFrame(this)" onmouseover="resizeFrame(this)" name="nav_frame" title="navbar" style="display:block;width:100%;border:none;overflow:hidden;"></iframe>
     </header>
     <main>
         <iframe src="/src/home.html" onload="resizeFrame(this)" name="main_frame" title="content" style="display:block;width:100%;border:none;overflow:hidden;"></iframe>

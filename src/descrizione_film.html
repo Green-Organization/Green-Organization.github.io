@@ -8,24 +8,18 @@
         <meta name="author" content="">
         <title>Blank Template for Bootstrap</title>
         <!-- Bootstrap core CSS -->
-        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
         <!-- Custom styles for this template -->
-        <link href="style.css" rel="stylesheet">
-        <link href="style_max.css" rel="stylesheet">
-        <link href="assets/css/slick.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css">
+        <link href="/src/css/style.css" rel="stylesheet">
+        <link href="/src/css/style_max.css" rel="stylesheet">
     </head>
     <body>
-        <!-- Bootstrap core JavaScript
-    ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
         <div class="card mt-4" id="titolo">
             <h4>Informazioni sul Film</h4>
             <h1 class="text-center"><b class="text-light">&nbsp; &nbsp;IT(2017)</b></h1> 
         </div>
         <div class="container d-flex">
-            <img src="images/it-pennywise-hush-i58004.jpg" class="float-left float-lg-left float-md-left float-sm-left float-xl-left ml-auto mr-auto pl-auto pr-auto" height="750" id="locandina">
+            <img src="/images/it-pennywise-hush-i58004.jpg" class="float-left float-lg-left float-md-left float-sm-left float-xl-left ml-auto mr-auto pl-auto pr-auto" height="750" id="locandina">
             <div class="mr-auto pl-4 pr-auto">
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <div>
@@ -59,13 +53,13 @@
             </thead>             
             <tbody> 
                 <tr> 
-                    <td><a href="acquista.html" class="text-light">UCI_Cinema</a></td> 
+                    <td><a href="/src/acquista.html" class="text-light">UCI_Cinema</a></td> 
                 </tr>                 
                 <tr> 
-                    <td><a href="acquista.html" class="text-light">Smeraldo</a></td> 
+                    <td><a href="/src/acquista.html" class="text-light">Smeraldo</a></td> 
                 </tr>                 
                 <tr> 
-                    <td><a href="acquista.html" class="text-light">Tor_Vergata</a></td> 
+                    <td><a href="/src/acquista.html" class="text-light">Tor_Vergata</a></td> 
                 </tr>                 
             </tbody>             
         </table>
@@ -81,39 +75,39 @@
                     <div class="carousel-item active"> 
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_1.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_1.jpg" alt="First slide"> 
                             </div>
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_2.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_2.jpg" alt="First slide"> 
                             </div>
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_3.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_3.jpg" alt="First slide"> 
                             </div>
                         </div>                         
                     </div>                     
                     <div class="carousel-item"> 
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_4.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_4.jpg" alt="First slide"> 
                             </div>
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_5.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_5.jpg" alt="First slide"> 
                             </div>
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_6.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_6.jpg" alt="First slide"> 
                             </div>
                         </div>                         
                     </div>
                     <div class="carousel-item"> 
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_7.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_7.jpg" alt="First slide"> 
                             </div>
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_8.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_8.jpg" alt="First slide"> 
                             </div>
                             <div class="col-md-4">
-                                <img class="d-block w-100" src="images/film_9.jpg" alt="First slide"> 
+                                <img class="d-block w-100" src="/images/film_9.jpg" alt="First slide"> 
                             </div>
                         </div>                         
                     </div>                     
@@ -122,20 +116,9 @@
                 <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
             </div>
         </div>
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
-        <script>
-            $(".slider-area").slick({
-                dots: false,
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 2,
-                autoplay: true,
-                speed: 300,
-                centerMode: true
-            });
-        </script>
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="/lib/jquery/jquery.min.js"></script>
+        <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
