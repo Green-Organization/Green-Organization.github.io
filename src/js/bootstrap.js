@@ -1,0 +1,1 @@
+import "/ext/bootstrap/dist/js/bootstrap.js"
