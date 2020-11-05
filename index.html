@@ -7,17 +7,35 @@
     <meta name="description" content="index">
     <meta name="author" content="Fabio Buracchi">
     <title>Prototype</title>
-    <script src="/src/js/frame.js"></script>
+    <script src="/src/js/frame_utils.js"></script>
 </head>
 <body style="margin:0;">
     <header>
-        <iframe src="/src/components/navbar/navbar.html" onload="resizeFrame(this)" onresize="resizeFrame(this)" name="nav_frame" title="navbar" style="display:block;width:100%;border:none;overflow:hidden;"></iframe>
+        <iframe
+            src="/src/components/navbar/navbar.html"
+            onload="resizeFrameByContent(this)"
+            name="nav_frame"
+            title="navbar"
+            style="display:block;width:100%;border:none;overflow:hidden;">
+        </iframe>
     </header>
     <main>
-        <iframe src="/src/home.html" onload="resizeFrame(this)" name="main_frame" title="content" style="display:block;width:100%;border:none;overflow:hidden;"></iframe>
+        <iframe
+            src="/src/home.html"
+            onload="resizeFrameByContent(this)"
+            name="main_frame"
+            title="content"
+            style="display:block;width:100%;border:none;overflow:hidden;">
+        </iframe>
     </main>
     <footer>
-        <iframe src="/src/components/footer/footer.html" onload="resizeFrame(this)" name="main_frame" title="content" style="display:block;width:100%;border:none;overflow:hidden;"></iframe>
+        <iframe
+            src="/src/components/footer/footer.html"
+            onload="resizeFrameByContent(this)"
+            name="footer_frame"
+            title="footer"
+            style="display:block;width:100%;border:none;overflow:hidden;">
+        </iframe>
     </footer>
 </body>
 </html>
