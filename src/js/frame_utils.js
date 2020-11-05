@@ -11,7 +11,7 @@ function dinamicResizeFrameByContent(frame) {
     };
     var observer = new MutationObserver(callback);
     observer.observe(target, config);
-    win.addEventListener('resize', resizeFrameByContent, frame);
+    window.addEventListener('resize', resizeFrameByContent, frame);
     resizeFrameByContent(frame);
 }
 
