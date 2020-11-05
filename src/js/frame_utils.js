@@ -1,5 +1,6 @@
 function dinamicResizeFrameByContent(frame) {
-    var target = frame.contentWindow.document.body;
+    var window = frame.contentWindow;
+    var target = window.document.body;
     var config = {
         attributes: true,
         childList: true,
@@ -10,6 +11,7 @@ function dinamicResizeFrameByContent(frame) {
     };
     var observer = new MutationObserver(callback);
     observer.observe(target, config);
+    win.addEventListener('resize', resizeFrameByContent, frame);
     resizeFrameByContent(frame);
 }
 

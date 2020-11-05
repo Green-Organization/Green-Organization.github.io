@@ -14,7 +14,6 @@
         <iframe
             src="/src/components/navbar/navbar.html"
             onload="dinamicResizeFrameByContent(this)"
-            onresize="resizeFrameByContent(this)"
             name="nav_frame"
             title="navbar"
             style="display:block;width:100%;border:none;overflow:hidden;">
@@ -23,8 +22,7 @@
     <main>
         <iframe
             src="/src/home.html"
-            onload="resizeFrameByContent(this)"
-            onresize="resizeFrameByContent(this)"
+            onload="dinamicResizeFrameByContent(this)"
             name="main_frame"
             title="content"
             style="display:block;width:100%;border:none;overflow:hidden;">
@@ -33,8 +31,7 @@
     <footer>
         <iframe
             src="/src/components/footer/footer.html"
-            onload="resizeFrameByContent(this)"
-            onresize="resizeFrameByContent(this)"
+            onload="dinamicResizeFrameByContent(this)"
             name="footer_frame"
             title="footer"
             style="display:block;width:100%;border:none;overflow:hidden;">
