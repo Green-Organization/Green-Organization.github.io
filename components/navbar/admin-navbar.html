@@ -6,6 +6,7 @@
     <link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="/src/css/style.css" rel="stylesheet">
+    <script src="navigation.js"></script>
 </head>
 
 <body>
@@ -59,17 +60,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="/lib/jquery/jquery.min.js"></script>
     <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            "use strict";
-            $('ul.navbar-nav > li').click(function (e) {
-                if (!$(this).hasClass('disabled')) {
-                    $('ul.navbar-nav > li').removeClass('active');
-                    $(this).addClass('active');
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>
