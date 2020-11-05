@@ -7,18 +7,18 @@
         <meta name="description" content=""> 
         <meta name="author" content=""> 
         <title>Blank Template for Bootstrap</title>         
-        <!-- Bootstrap core CSS -->         
+		<!-- Bootstrap core CSS -->         
         <link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet"> 
         <!-- Custom styles for this template -->         
         <link href="/src/css/style_ivan.css" rel="stylesheet"> 
     </head>     
-    <body>
-        <div class="container mh-100 min-vw-100 ml-auto mr-n1 mw-100 w-100" id="maincontainer"> 
+    <body style="background-image: url('/image/sfondoIvan.webp');">
+        <div class="container-fluid " id="maincontainer"> 
             <div class="container h-100 mh-100 mw-100" id="containerBackground"> 
                 <div class="row" id="containerCinema"> 
                     <div class="card h-100 mh-100 mt-5 pb-4 pt-4" id="cardCinema"> 
                         <h1 id="NameCinema" class="text-light">UCI CINEMA</h1>
-                        <button type="button" class="btn btn-danger text-dark" name="btnCambiaCinema">Cambia cinema</button>                         
+                        <button type="button" class="btn btn-primary" name="btnCambiaCinema">Cambia cinema</button>                         
                         <!--inizio-->                         
                         <body> 
                             <div class="container"> 
@@ -49,18 +49,18 @@
             </div>             
             <div class="container mh-100 mw-100 text-white" id="container2"> 
                 <div class="card-columns"> 
-                    <div class="bg-danger card" id="cardCambiaFilm"> 
-                        <div style="text-align: center;"> 
-                            <span style="font-size: 1rem; background-color: rgb(200, 35, 51);"><font color="#343a40" class="text-black-50">Cambia film</font></span> 
-                        </div>                         
-                    </div>                     
+                    
+					<div style="text-align: center;"> 
+						<button class="btn btn-primary mb-3 w-100" style="color:white">Cambia film</button>
+					</div>                         
+                                    
                     <div class="card" id="card4"> 
                         <h5 class="mb-0 mt-2 mw-100 text-center text-white w-100">Dati quotidiani del film </h5> 
-                        <h5 class="mb-n3 mw-100 text-center text-light w-100">&quot;Prova film&quot;</h5>&nbsp; &nbsp; &nbsp;&nbsp;
+                        <h5 class="mb-n3 mw-100 text-center text-light w-100">&quot;The Avengers&quot;</h5>&nbsp; &nbsp; &nbsp;&nbsp;
                     </div>                     
-                    <div class="card" id="card5">&nbsp; &nbsp; &nbsp;&nbsp;
+                    <div class="card p-3" id="card5">&nbsp; &nbsp; &nbsp;&nbsp;
                         <div class="card-body mt-n4"> 
-                            <h6 spellcheck="true" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="1" medium-editor-index="ea9330b0-774c-19a9-f264-4180aec5bee5" data-placeholder="Type your text" data-medium-focused="true"><br><span style="font-size: 32px;">50/100&nbsp;</span>Biglietti inutilizzati</h6> 
+                            <h6 spellcheck="true" class ="mr-3" data-medium-editor-element="true" role="textbox" aria-multiline="true" data-medium-editor-editor-index="1" medium-editor-index="ea9330b0-774c-19a9-f264-4180aec5bee5" data-placeholder="Type your text" data-medium-focused="true"><br><span style="font-size: 32px;" >50/100&nbsp;</span>Biglietti inutilizzati</h6> 
                             <p class="card-text">Questo dato raffigura il numero di biglietti venduti ma non utilizzati</p> 
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> 
                         </div>                         
@@ -80,7 +80,7 @@
                         </div>                         
                     </div>                     
                     <div class="card" id="card8"> 
-                        <img class="card-img-top" src="http://pinegrow.com/placeholders/img17.jpg" alt="Card image cap"> 
+                        <img class="card-img-top" src="/images/avengers.jpg" alt="Card image cap"> 
                         <div class="card-body"> 
                             <h4 class="card-title">Film del giorno</h4> 
                             <p class="card-text">Film che ha venduto più biglietti in questo giorno</p> 
@@ -88,7 +88,7 @@
                         </div>                         
                     </div>                     
                     <div class="card" id="card9"> 
-                        <img class="card-img-top" src="http://pinegrow.com/placeholders/img17.jpg" alt="Card image cap"> 
+                        <img class="card-img-top" src="/images/avengers.jpg" alt="Card image cap"> 
                         <div class="card-body"> 
                             <h4 class="card-title">Film del mese</h4> 
                             <p class="card-text">Film che ha venduto più biglietti in questo mese</p> 
@@ -96,7 +96,7 @@
                         </div>                         
                     </div>                     
                     <div class="card" id="card10"> 
-                        <img class="card-img-top" src="http://pinegrow.com/placeholders/img17.jpg" alt="Card image cap"> 
+                        <img class="card-img-top" src="/images/avengers.jpg" alt="Card image cap"> 
                         <div class="card-body"> 
                             <h4 class="card-title">Film dell&apos;anno</h4> 
                             <p class="card-text">Film che ha venduto più biglietti in questo anno</p> 
@@ -107,13 +107,14 @@
                         <div class="card-body"> 
                             <h4 class="card-title">Storico giornaliero</h4> 
                             <div class="container"> 
-                                <div class="card float-none m-2 pr-5" id="DatiQuotidiani"> 
+                                <div class="card float-none " id="DatiQuotidiani"> 
                                     <div class="table-responsive"> 
-                                        <table class="lead ml-3 mr-3 pr-auto table table-sm text-center text-light"> 
+                                        <table class="lead  table  text-center text-light"> 
+										<br>
                                             <thead> 
                                                 <h6 class="text-white"> <th class="text-white">Film</th> <th class="text-white">Biglietti venduti</th> <th class="text-white">Non utilizzati</th> <th>Prezzo</th> </h6> 
                                             </thead>                                             
-                                            <tbody> 
+
                                                 <tr> 
                                                     <th scope="row">IT</th> 
                                                     <td>57/100</td> 
@@ -132,7 +133,7 @@
                                                     <td>100%</td> 
                                                     <td>0.5&euro;</td> 
                                                 </tr>                                                 
-                                            </tbody>                                             
+                                                                                      
                                         </table>                                         
                                     </div>                                     
                                 </div>                                 

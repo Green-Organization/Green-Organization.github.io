@@ -12,7 +12,7 @@
         <!-- Custom styles for this template -->         
         <link href="/src/css/style_ivan.css" rel="stylesheet"> 
     </head>     
-    <body id="bodyAmministratoreTurni" class="mh-100">
+    <body id="bodyAmministratoreTurni" style="background-image: url('/image/sfondoIvan.webp');" class="mh-100">
         <div class="container h-100 mb-auto mh-100 mw-100" id="containerPricipalAssegnaTurno"> 
             <div class="container mw-100 w-100"> 
                 <div class="ml-3 mr-3 row text-center"> 
@@ -23,10 +23,11 @@
                 </div>                 
             </div>             
             <div class="container mt-5 w-auto"> 
-                <div class="card mb-5 ml-5 mr-4 w-100" id="cardAssegnaTurno"> 
+                <div class="card mb-5 ml-5 mr-4 " id="cardAssegnaTurno"> 
                     <div class="card-group"> 
                         <card class="card-body text-white w-auto" id="cardAssegnaTurno2"> 
-                            <h4 class="card-title">Assegna turno</h4> 
+                            <h4 class="card-title text-center">Assegna turno</h4> 
+							
                             <hr class="bg-light"> 
                             <p>Matricola</p> 
                             <textarea class="form-control form-control-sm mb-n4 w-50" rows="1"></textarea> 
@@ -36,9 +37,9 @@
                             <textarea class="form-control form-control-sm mb-n4 mt-1 w-50" rows="1"></textarea> 
                             <p class="mt-5">Ora di fine</p> 
                             <textarea class="form-control form-control-sm mb-n4 mt-1 w-50" rows="1"></textarea> 
-                            <button type="button" class="btn btn-light mt-5">Conferma</button>                             
+                            <button type="button" class="btn btn-primary mt-5">Conferma</button>                             
                         </card>                         
-                        <div class="card mb-5 mr-5 mt-3 text-center text-light" id="cardDipendenti"> 
+                        <div class="card text-center text-light " id="cardDipendenti"> 
                             <h4 class="card-title ml-3 mt-4">I tuoi dipendenti</h4> 
                             <div class="table-responsive">
                                 <table class="ml-0 mr-5 table text-light"> 
@@ -91,7 +92,7 @@
                                     <td class="text-center">16:00</td> 
                                     <td>20:00</td> 
                                     <td class="text-center"> 
-                                        <button type="button" class="btn btn-light">Cancella</button>                                         
+                                        <button type="button" class="btn btn-primary">Cancella</button>                                         
                                     </td>                                     
                                 </tr>                                 
                                 <tr> 
@@ -100,7 +101,7 @@
                                     <td>06:05</td> 
                                     <td>13:05</td> 
                                     <td class="text-center"> 
-                                        <button type="button" class="btn btn-light">Cancella</button>                                         
+                                        <button type="button" class="btn btn-primary">Cancella</button>                                         
                                     </td>                                     
                                 </tr>                                 
                                 <tr> 
@@ -109,7 +110,7 @@
                                     <td>13:00</td> 
                                     <td>16:00</td> 
                                     <td class="text-center"> 
-                                        <button type="button" class="btn btn-light">Cancella</button>                                         
+                                        <button type="button" class="btn btn-primary">Cancella</button>                                         
                                     </td>                                     
                                 </tr>                                 
                             </tbody>                             
