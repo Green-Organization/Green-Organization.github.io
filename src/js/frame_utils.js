@@ -1,4 +1,4 @@
-function dinamicResizeFrameByContent(frame) {
+function resizeFrameByContent(frame) {
     var window = frame.contentWindow;
     var target = window.document.body;
     var config = {
@@ -11,15 +11,10 @@ function dinamicResizeFrameByContent(frame) {
     };
     var observer = new MutationObserver(callback);
     observer.observe(target, config);
-    window.addEventListener('resize', resizeFrameByContent, frame);
-    resizeFrameByContent(frame);
-}
-
-function resizeFrameByContent(frame) {
-    setFrameHeight(
-        frame,
-        frame.contentWindow.document.body.scrollHeight
-    );
+    window.addEventListener('resize', function() {
+        setFrameHeight(frame, target.scrollHeight);
+    });
+    setFrameHeight(frame, target.scrollHeight);
 }
 
 function setFrameHeight(frame, height) {
