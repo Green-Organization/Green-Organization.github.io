@@ -3,7 +3,6 @@ function resizeFrameByContent(frame) {
     var target = window.document.body;
     var config = {
         attributes: true,
-        childList: true,
         subtree: true
     };
     var callback = function(mutationList) {
