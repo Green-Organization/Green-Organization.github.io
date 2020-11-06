@@ -1,236 +1,243 @@
-<!DOCTYPE html> 
-<html lang="en" class="shadow-none"> 
-    <head> 
-        <meta charset="utf-8"> 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-        <meta name="description" content=""> 
-        <meta name="author" content=""> 
-        <title>Blank Template for Bootstrap</title>         
-        <!-- Bootstrap core CSS -->         
-        <link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet"> 
-        <!-- Custom styles for this template -->         
-        <link href="/src/css/style_ivan.css" rel="stylesheet"> 
-    </head>     
-    <body id="bodyAmministratoreTurni" style="background-image: url('/image/sfondoIvan.webp');" class="mh-100">
-        <div class="container h-100 mb-auto mh-100 mw-100" id="containerPricipalAssegnaTurno"> 
-            <div class="container mw-100 w-100"> 
-                <div class="ml-3 mr-3 row text-center"> 
-                    <div class="card mt-5 pb-4 pt-4" id="cardCinema"> 
-                        <h1 class="mw-100 shadow-sm text-center text-light vw-100" id="NameCinema">Assegnazione turno</h1> 
-                        <p class="lead"> </p> 
-                    </div>                     
-                </div>                 
-            </div>             
-            <div class="container mt-5 w-auto"> 
-                <div class="card mb-5 ml-5 mr-4 " id="cardAssegnaTurno"> 
-                    <div class="card-group"> 
-                        <card class="card-body text-white w-auto" id="cardAssegnaTurno2"> 
-                            <h4 class="card-title text-center">Assegna turno</h4> 
-							
-                            <hr class="bg-light"> 
-                            <p>Matricola</p> 
-                            <textarea class="form-control form-control-sm mb-n4 w-50" rows="1"></textarea> 
-                            <p class="mt-5">Data</p> 
-                            <textarea class="form-control form-control-sm mb-n4 w-50" rows="1"></textarea> 
-                            <p class="mt-5">Ora di inzio</p> 
-                            <textarea class="form-control form-control-sm mb-n4 mt-1 w-50" rows="1"></textarea> 
-                            <p class="mt-5">Ora di fine</p> 
-                            <textarea class="form-control form-control-sm mb-n4 mt-1 w-50" rows="1"></textarea> 
-                            <button type="button" class="btn btn-primary mt-5">Conferma</button>                             
-                        </card>                         
-                        <div class="card text-center text-light " id="cardDipendenti"> 
-                            <h4 class="card-title ml-3 mt-4">I tuoi dipendenti</h4> 
-                            <div class="table-responsive">
-                                <table class="ml-0 mr-5 table text-light"> 
-                                    <thead> 
-                                        <tr> 
-                                            <th class="text-center">Matricola</th> 
-                                            <th class="text-center">Ruolo</th> 
-                                            <th>Stato</th> 
-                                        </tr>                                         
-                                    </thead>                                     
-                                    <tbody> 
-                                        <tr> 
-                                            <th scope="row" class="text-center">000001</th> 
-                                            <td class="text-center">Maschera</td> 
-                                            <td>Disponibile</td> 
-                                        </tr>                                         
-                                        <tr> 
-                                            <th scope="row" class="text-center">000002</th> 
-                                            <td class="text-center">Proiezionista</td> 
-                                            <td>Disponibile</td> 
-                                        </tr>                                         
-                                        <tr> 
-                                            <th scope="row" class="text-center">000003</th> 
-                                            <td class="text-center">Maschera</td> 
-                                            <td>Occupato</td> 
-                                        </tr>                                         
-                                    </tbody>                                     
-                                </table>
-                            </div>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-                <div class="card ml-4 text-center text-light" id="cardTurniAssegnati"> 
-                    <h4 class="card-title ml-3 mt-4">Turni appena assegnati</h4> 
-                    <div class="table-responsive-sm">
-                        <table class="ml-0 mr-5 table text-light"> 
-                            <thead> 
-                                <tr> 
-                                    <th class="text-center">Matricola</th> 
-                                    <th class="text-center">Data</th> 
-                                    <th class="text-center">Dalle</th> 
-                                    <th class="text-center">Alle</th> 
-                                    <th class="text-center">Cancella</th> 
-                                </tr>                                 
-                            </thead>                             
-                            <tbody> 
-                                <tr> 
-                                    <th scope="row" class="text-center">00001</th> 
-                                    <td class="text-center">20/08/2020</td> 
-                                    <td class="text-center">16:00</td> 
-                                    <td>20:00</td> 
-                                    <td class="text-center"> 
-                                        <button type="button" class="btn btn-primary">Cancella</button>                                         
-                                    </td>                                     
-                                </tr>                                 
-                                <tr> 
-                                    <th scope="row" class="text-center">000025</th> 
-                                    <td class="text-center">12/08/20</td> 
-                                    <td>06:05</td> 
-                                    <td>13:05</td> 
-                                    <td class="text-center"> 
-                                        <button type="button" class="btn btn-primary">Cancella</button>                                         
-                                    </td>                                     
-                                </tr>                                 
-                                <tr> 
-                                    <th scope="row" class="text-center">00007</th> 
-                                    <td class="text-center">20/02/2020</td> 
-                                    <td>13:00</td> 
-                                    <td>16:00</td> 
-                                    <td class="text-center"> 
-                                        <button type="button" class="btn btn-primary">Cancella</button>                                         
-                                    </td>                                     
-                                </tr>                                 
-                            </tbody>                             
-                        </table>
-                    </div>                     
-                </div>                 
-            </div>             
-            <div class="container mw-100 w-100"> 
-                <div class="card-group h-100 mb-5 mh-100 mt-5 mw-100 vw-100"> 
-                    <div class="card mb-5 mr-5 text-center text-light" id="cardOccupazione"> 
-                        <h4 class="card-title ml-3 mt-4">Occupazione sale</h4> 
-                        <div class="table-responsive">
-                            <table class="ml-0 mr-5 table text-light"> 
-                                <thead> 
-                                    <tr> 
-                                        <th class="text-center">Sala</th> 
-                                        <th class="text-center">Data</th> 
-                                        <th class="text-center">Inizio&nbsp;</th> 
-                                        <th class="text-center">Maschere</th> 
-                                        <th class="text-center">Proiezionisti</th> 
-                                    </tr>                                     
-                                </thead>                                 
-                                <tbody> 
-                                    <tr> 
-                                        <th scope="row" class="text-center">A1</th> 
-                                        <td class="text-center">20/08/2020</td> 
-                                        <td class="text-center">16:00</td> 
-                                        <td>0</td> 
-                                        <td class="text-center">1 </td> 
-                                    </tr>                                     
-                                    <tr> 
-                                        <th scope="row" class="text-center">B5</th> 
-                                        <td class="text-center">12/08/20</td> 
-                                        <td>06:05</td> 
-                                        <td>2</td> 
-                                        <td class="text-center">1  </td> 
-                                    </tr>                                     
-                                    <tr> 
-                                        <th scope="row" class="text-center">A7</th> 
-                                        <td class="text-center">20/02/2020</td> 
-                                        <td>13:00</td> 
-                                        <td>2</td> 
-                                        <td class="text-center">1  </td> 
-                                    </tr>                                     
-                                </tbody>                                 
-                            </table>
-                        </div>                         
-                    </div>                     
-                    <div class="card h-100 mb-5 mh-100 mt-5 mw-100 vw-100" id="cardVisioneTurni"> 
-                        <ul class="nav nav-fill nav-justified nav-tabs" role="tablist" id="navbarTurni"> 
-                            <li class="nav-item"> 
-                                <a class="nav-link active" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">1° settimana</a> 
-                            </li>                             
-                            <li class="nav-item"> 
-                                <a class="nav-link text-light" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">2° settimana</a> 
-                            </li>                             
-                            <li class="nav-item"> 
-                                <a class="nav-link text-light" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">3° settimana</a> 
-                            </li>                             
-                            <li class="nav-item"> 
-                                <a class="nav-link text-light" href="#" data-toggle="tab" role="tab" aria-controls="" aria-expanded="true">4° settimana</a> 
-                            </li>                             
-                        </ul>                         
-                        <div class="card mb-0 text-light" id="tableSettimana"> 
-                            <div class="table-responsive">
-                                <table class="table text-light" id="tableturni2"> 
-                                    <thead> 
-                                        <tr> 
-                                            <th>Matricola</th> 
-                                            <th>1° giorno</th> 
-                                            <th>2° giorno</th> 
-                                            <th>3° giorno</th> 
-                                            <th>4° giorno</th> 
-                                            <th>5° giorno</th> 
-                                            <th>6° giorno</th> 
-                                            <th>7° giorno</th> 
-                                        </tr>                                         
-                                    </thead>                                     
-                                    <tbody> 
-                                        <tr> 
-                                            <th scope="row">00001</th> 
-                                            <td>Riposo</td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                        </tr>                                         
-                                        <tr> 
-                                            <th scope="row">000025</th> 
-                                            <td>12:00/20:00</td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                        </tr>                                         
-                                        <tr> 
-                                            <th scope="row">00007</th> 
-                                            <td>11:15/19:15</td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                            <td></td> 
-                                        </tr>                                         
-                                    </tbody>                                     
-                                </table>
-                            </div>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </div>             
+<!DOCTYPE html>
+<html lang="en" class="shadow-none">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Blank Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/css/style_ivan.css" rel="stylesheet">
+</head>
+
+<body id="bodyAmministratoreTurni" class="mh-100">
+    <div class="container h-100 mb-auto mh-100 mw-100" id="containerPricipalAssegnaTurno">
+        <div class="container mw-100 w-100">
+            <div class="ml-3 mr-3 row text-center">
+                <div class="card mt-5 pb-4 pt-4" id="cardCinema">
+                    <h1 class="mw-100 shadow-sm text-center text-light vw-100" id="NameCinema">Assegnazione turno</h1>
+                    <p class="lead"> </p>
+                </div>
+            </div>
         </div>
-        <!-- Bootstrap core JavaScript -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="/lib/jquery/jquery.min.js"></script>
-        <script src="/lib/bootstrap/js/bootstrap.min.js"></script>       
-    </body>     
+        <div class="container mt-5 w-auto">
+            <div class="card mb-5 ml-5 mr-4 " id="cardAssegnaTurno">
+                <div class="card-group">
+                    <card class="card-body text-white w-auto" id="cardAssegnaTurno2">
+                        <h4 class="card-title text-center">Assegna turno</h4>
+
+                        <hr class="bg-light">
+                        <p>Matricola</p>
+                        <textarea class="form-control form-control-sm mb-n4 w-50" rows="1"></textarea>
+                        <p class="mt-5">Data</p>
+                        <textarea class="form-control form-control-sm mb-n4 w-50" rows="1"></textarea>
+                        <p class="mt-5">Ora di inzio</p>
+                        <textarea class="form-control form-control-sm mb-n4 mt-1 w-50" rows="1"></textarea>
+                        <p class="mt-5">Ora di fine</p>
+                        <textarea class="form-control form-control-sm mb-n4 mt-1 w-50" rows="1"></textarea>
+                        <button type="button" class="btn btn-primary mt-5">Conferma</button>
+                    </card>
+                    <div class="card text-center text-light " id="cardDipendenti">
+                        <h4 class="card-title ml-3 mt-4">I tuoi dipendenti</h4>
+                        <div class="table-responsive">
+                            <table class="ml-0 mr-5 table text-light">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">Matricola</th>
+                                        <th class="text-center">Ruolo</th>
+                                        <th>Stato</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row" class="text-center">000001</th>
+                                        <td class="text-center">Maschera</td>
+                                        <td>Disponibile</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-center">000002</th>
+                                        <td class="text-center">Proiezionista</td>
+                                        <td>Disponibile</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="text-center">000003</th>
+                                        <td class="text-center">Maschera</td>
+                                        <td>Occupato</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card ml-4 text-center text-light" id="cardTurniAssegnati">
+                <h4 class="card-title ml-3 mt-4">Turni appena assegnati</h4>
+                <div class="table-responsive-sm">
+                    <table class="ml-0 mr-5 table text-light">
+                        <thead>
+                            <tr>
+                                <th class="text-center">Matricola</th>
+                                <th class="text-center">Data</th>
+                                <th class="text-center">Dalle</th>
+                                <th class="text-center">Alle</th>
+                                <th class="text-center">Cancella</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-center">00001</th>
+                                <td class="text-center">20/08/2020</td>
+                                <td class="text-center">16:00</td>
+                                <td>20:00</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-primary">Cancella</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-center">000025</th>
+                                <td class="text-center">12/08/20</td>
+                                <td>06:05</td>
+                                <td>13:05</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-primary">Cancella</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-center">00007</th>
+                                <td class="text-center">20/02/2020</td>
+                                <td>13:00</td>
+                                <td>16:00</td>
+                                <td class="text-center">
+                                    <button type="button" class="btn btn-primary">Cancella</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="container mw-100 w-100">
+            <div class="card-group h-100 mb-5 mh-100 mt-5 mw-100 vw-100">
+                <div class="card mb-5 mr-5 text-center text-light" id="cardOccupazione">
+                    <h4 class="card-title ml-3 mt-4">Occupazione sale</h4>
+                    <div class="table-responsive">
+                        <table class="ml-0 mr-5 table text-light">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Sala</th>
+                                    <th class="text-center">Data</th>
+                                    <th class="text-center">Inizio&nbsp;</th>
+                                    <th class="text-center">Maschere</th>
+                                    <th class="text-center">Proiezionisti</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" class="text-center">A1</th>
+                                    <td class="text-center">20/08/2020</td>
+                                    <td class="text-center">16:00</td>
+                                    <td>0</td>
+                                    <td class="text-center">1 </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-center">B5</th>
+                                    <td class="text-center">12/08/20</td>
+                                    <td>06:05</td>
+                                    <td>2</td>
+                                    <td class="text-center">1 </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-center">A7</th>
+                                    <td class="text-center">20/02/2020</td>
+                                    <td>13:00</td>
+                                    <td>2</td>
+                                    <td class="text-center">1 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card h-100 mb-5 mh-100 mt-5 mw-100 vw-100" id="cardVisioneTurni">
+                    <ul class="nav nav-fill nav-justified nav-tabs" role="tablist" id="navbarTurni">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-toggle="tab" role="tab" aria-controls=""
+                                aria-expanded="true">1° settimana</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" data-toggle="tab" role="tab" aria-controls=""
+                                aria-expanded="true">2° settimana</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" data-toggle="tab" role="tab" aria-controls=""
+                                aria-expanded="true">3° settimana</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" data-toggle="tab" role="tab" aria-controls=""
+                                aria-expanded="true">4° settimana</a>
+                        </li>
+                    </ul>
+                    <div class="card mb-0 text-light" id="tableSettimana">
+                        <div class="table-responsive">
+                            <table class="table text-light" id="tableturni2">
+                                <thead>
+                                    <tr>
+                                        <th>Matricola</th>
+                                        <th>1° giorno</th>
+                                        <th>2° giorno</th>
+                                        <th>3° giorno</th>
+                                        <th>4° giorno</th>
+                                        <th>5° giorno</th>
+                                        <th>6° giorno</th>
+                                        <th>7° giorno</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">00001</th>
+                                        <td>Riposo</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">000025</th>
+                                        <td>12:00/20:00</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">00007</th>
+                                        <td>11:15/19:15</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
 </html>

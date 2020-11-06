@@ -7,12 +7,12 @@
     <meta name="description" content="index">
     <meta name="author" content="Fabio Buracchi">
     <title>Prototype</title>
-    <script src="/src/js/frame_utils.js"></script>
+    <script src="/js/frame_utils.js"></script>
 </head>
 <body style="margin:0;">
     <header>
         <iframe
-            src="/src/components/navbar/admin-navbar.html"
+            src="/components/navbar/admin-navbar.html"
             onload="resizeFrameByContent(this)"
             name="nav_frame"
             title="navbar"
@@ -21,7 +21,7 @@
     </header>
     <main>
         <iframe
-            src="/src/home.html" 
+            src="/pages/home/home.html" 
             onload="resizeFrameByContent(this)"
             name="main_frame" 
             title="content" 
@@ -30,7 +30,7 @@
     </main>
     <footer>
         <iframe 
-            src="/src/components/footer/footer.html" 
+            src="/components/footer/footer.html" 
             onload="resizeFrameByContent(this)" 
             name="footer_frame" 
             title="footer"

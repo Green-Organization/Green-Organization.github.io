@@ -6,7 +6,7 @@ body {
 #promo {
     text-align: center;
     padding: 80px;
-    background-image: -webkit-linear-gradient(#1110, #111f), url("/images/cinema.jpg");
+    background-image: -webkit-linear-gradient(#1110, #111f), url("/res/images/cinema.jpg");
     background-size: cover;
 }
 

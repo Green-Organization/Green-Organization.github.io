@@ -27,7 +27,6 @@
 body {
     text-align: center;
     padding: 40px;
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0) 0%, black 100%), url("images/cinema.jpg");
     background-size: cover;
 }
 
