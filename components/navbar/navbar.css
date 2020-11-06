@@ -1,0 +1,14 @@
+@media (min-width:1009px) {
+    .navbar {
+        padding: 8px 32px;
+    }
+    .nav-link {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:1350px) {
+    .navbar {
+        padding: 8px 64px;
+    }
+}
