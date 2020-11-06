@@ -7,9 +7,7 @@
     border-radius: 8px;
 }
 
-#maincontainer {
-    background-size: cover;
-}
+
 
 #cardCinema {
     border-radius: 20px;
@@ -67,9 +65,7 @@
     background-size: cover;
 }
 
-#container2 {
-    padding: 100px;
-}
+
 
 #DatiQuotidiani {
     background-color: #343a40dc;
@@ -170,8 +166,11 @@
 }
 
 #cardVisioneTurni {
-    border-radius: 24px;
+   border-radius: 20px;
     background-color: #343a40dc;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0.90;
 }
 
 #cardOccupazione {
