@@ -8,3 +8,7 @@
 	url = https://github.com/jquery/jquery.git
 	branch = 3.5.1
 
+[submodule "ext/twbs/icons"]
+	path = ext/twbs/icons
+	url = https://github.com/twbs/icons.git
+	branch = v1.1.0
