@@ -73,7 +73,8 @@
 
 #DatiQuotidiani {
     background-color: #343a40dc;
-    border-radius: 24px;
+    border-radius: 12px;
+	
 }
 
 #containerCinema {
@@ -93,13 +94,19 @@
 }
 
 #cardTurniAssegnati {
-    border-radius: 24px;
+    border-radius: 20px;
     background-color: #343a40dc;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0.90;
 }
 
 #cardAssegnaTurno {
-    border-radius: 24px;
+    border-radius: 20px;
     background-color: #343a40dc;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0.90;
 }
 
 #cardDipendenti {
@@ -168,6 +175,9 @@
 }
 
 #cardOccupazione {
-    border-radius: 24px;
+    border-radius: 20px;
     background-color: #343a40dc;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0.90;
 }
