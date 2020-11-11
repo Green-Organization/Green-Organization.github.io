@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <div class="card mt-4" id="titolo">
-        <h1 class="text-center"><b class="text-light">&nbsp; &nbsp;Acquista Biglietto</b></h1>
-    </div>
-    <div class="container d-inline-flex d-xl-inline-flex text-body" id="acq_vie">
-        <img src="/res/images/it-pennywise-hush-i58004.jpg" width="300" height="400"
-            style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 1rem;"
-            class="mt-5">
+    
+          <div class="card mt-4" id="titolo">
+              <h1 class="text-center"><b class="text-light">&nbsp; &nbsp;Acquista Biglietto</b></h1>
+          </div>
+        
+    
+
         <div class="container mt-5">
             <div class="card mt-4" id="titolo">
                 <h1 class="text-white">IT (2017) </h1>
@@ -38,53 +38,60 @@
             </div>
             <hr />
         </div>
-    </div>
+
+        <div style="text-align: center">
+   
+            <img src="/res/images/it-pennywise-hush-i58004.jpg">
+    
+            </div>
     <hr />
-    <table class="mb-0 table">
-        <thead class="bg-danger text-light">
-            <tr class="text-center text-lg-center text-md-center text-sm-center text-xl-center">
-                <th>Ora</th>
-                <th>Prezzo</th>
-                <th>Posti Disponibili</th>
-                <th>Sala</th>
-                <th>Quantità</th>
-                <th>Posto</th>
-                <th>Acquista</th>
-            </tr>
-        </thead>
-        <tbody class="text-center text-lg-center text-md-center text-sm-center text-xl-center">
-            <tr class="bg-dark text-white">
-                <th scope="row">17:00</th>
-                <td>Non Disponibile</td>
-                <td>0</td>
-                <td>1</td>
-                <td>
+        <table class="mb-0 table">
+            <thead class="bg-primary text-light">
+                <tr class="text-center text-lg-center text-md-center text-sm-center text-xl-center">
+                    <th>Ora</th>
+                    <th>Prezzo</th>
+                    <th>Posti Disponibili</th>
+                    <th>Sala</th>
+                   <!-- <th>Quantità</th>  -->
+                    <th>Posto</th>
+                    <th>Acquista</th>
+                </tr>
+            </thead>
+            <tbody class="text-center text-lg-center text-md-center text-sm-center text-xl-center">
+                <tr class="bg-dark text-white">
+                    <th scope="row">17:00</th>
+                    <td>Non Disponibile</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <!--<td>
+                     <select class="form-control">
+                        <option>--</option>
+                    </select>
+                    </td>-->
+                    <td>
                     <select class="form-control">
                         <option>--</option>
                     </select>
-                </td>
-                <td>
-                    <select class="form-control">
-                        <option>--</option>
-                    </select>
-                </td>
-                <td class="bg-light">
-                    <img src="/res/images/no_carello.png" width="50" height="50">
-                </td>
-            </tr>
-            <tr class="bg-dark text-white">
-                <th scope="row">19:00</th>
-                <td>7,50&euro;</td>
-                <td>7</td>
-                <td>1</td>
-                <td>
+                    </td>
+                    <td class="bg-light">
+                        <img src="/lib/bootstrap-icon/cart-x.svg" width="50" height="50">
+                    </td>
+                </tr>
+                <tr class="bg-dark text-white">
+                    <th scope="row">19:00</th>
+                    <td>7,50&euro;</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <!--
+                    <td>
                     <select class="form-control">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
                     </select>
-                </td>
-                <td>
+                    </td>
+                -->
+                    <td>
                     <select class="form-control">
                         <option>A1</option>
                         <option>A2</option>
@@ -95,38 +102,41 @@
                         <option>D5</option>
                         <option>D6</option>
                     </select>
-                </td>
-                <td class="bg-white">
-                    <a href="/pages/checkout.html"><img src="/res/images/icons8-carrello-caricato-100.png" width="50"
+                    </td>
+                    <td class="bg-white">
+                    <a href="/pages/checkout.html"><img src="/lib/bootstrap-icon/cart-check.svg" width="50"
                             height="50"></a>
-                </td>
-            </tr>
-            <tr class="bg-dark text-white">
-                <th scope="row">21:00</th>
-                <td>9,00&euro;</td>
-                <td>3</td>
-                <td>1</td>
-                <td>
+                    </td>
+                </tr>
+                <tr class="bg-dark text-white">
+                    <th scope="row">21:00</th>
+                    <td>9,00&euro;</td>
+                    <td>3</td>
+                    <td>1</td>
+                    <!--
+                    <td>
                     <select class="form-control">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
                     </select>
-                </td>
-                <td>
+                    </td>
+                -->
+                    <td>
                     <select class="form-control">
                         <option>A1</option>
                         <option>A2</option>
                         <option>A3</option>
                     </select>
-                </td>
-                <td class="table-light">
-                    <a href="/pages/checkout.html"> <img src="/res/images/icons8-carrello-caricato-100.png" width="50"
+                    </td>
+                    <td class="table-light">
+                        <a href="/pages/checkout.html"> <img src="/lib/bootstrap-icon/cart-check.svg" width="50"
                             height="50"></a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="/lib/jquery/jquery.min.js"></script>
